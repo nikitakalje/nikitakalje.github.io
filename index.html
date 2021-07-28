@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<!--added--> <script src="scripts.js"></script>
+	 <script src="https://kit.fontawesome.com/bf3aa6a91b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<header>
+		<a href="#" class ="logo">Portfolio</a>
+		<div class="toggle" onclick="toggleMenu();"></div>
+		<ul class="menu">
+			<li><a href="#home" onclick="toggleMenu();">Home</a></li>
+			<li><a href="#about" onclick="toggleMenu();">About Me</a></li>
+			<li><a href="#resume" onclick="toggleMenu();">Skills</a></li>
+			<li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+			<li><a href="#platforms" onclick="toggleMenu();">Experiences</a></li>
+			<li><a href="#contact" onclick="toggleMenu();">Contact </a></li>
+		</ul>
+	</header>
+	<section class="banner" id="home">
+		<div class="textBx">
+			<h2>Hello, I am<br><span> Nikita.</span></h2>
+			<h3>I am a University Student.</h3>
+			<a href="#about" class="btn">About Me</a>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="heading">
+			<h2>About Me</h2>
+		</div>
+		<div class="content">
+			<div class="contentBx w50">
+				<h3>I am a University Student.</h3>
+				<p>
+					I am a student studying Computer Science and Mathematics, with a focus in Data Science and Applied Mathematics!
+					<br><br>Apart from academics, I serve as the Co-President for Women in STEM at my University, as well as the Treasurer for Students for Sensible Drug Policy! I am also a part of the Mathematics and Computer Science Society:) <br><br>Alongside my passion for technology, I also enjoy playing the piano, scrapbooking, and baking! Do not hesitate to check out my website and contact me for any questions or inquiries! Thanks for visiting :))
+				</p>
+			</div>
+			<div class ="w50">
+				<img src="img1.png" class="img">
+			</div>
+		</div>
+	</section>
+	<section class="resume" id="resume">
+		<div class = "heading white">
+			<h2>Skills</h2>
+			<p>
+				Here are some of my skills! 
+			</p>
+		</div>
+		<div class = "content">
+			<div class="servicesBx">
+				<img src="icon1.png">
+				<h2>Software Devlopment/Engineering</h2>
+				<p>
+					<ul>
+						<a>Object Oriented Programming:</a><br>
+						<a>Proficient in Java, </a>
+						<a>C++</a>
+					</ul>
+				</p>
+			</div>
+			<div class="servicesBx">
+				<img src="icon2.png">
+				<h2>iOS App Development</h2>
+				<p>
+					<ul>
+						<a>Language: Swift</a><br>
+						<a>Backend: Firebase</a>
+						<br><br><br>
+					</ul>
+				</p>
+			</div>
+			<div class="servicesBx">
+				<img src="icon3.png">
+				<h2>Web Development</h2>
+				<p>
+						<a>Language: HTML, CSS, Javascript, PHP</a><br>
+				</p>
+			</div>
+			<div class="servicesBx">
+				<img src="icon4.png">
+				<h2>Python</h2>
+				<p>
+					Libraries: pandas, OpenCV
+				</p>
+			</div>
+			<div class="servicesBx">
+				<img src="icon5.png">
+				<h2>R and SQL</h2>
+				<p>
+					R Programming and SQL for Data Visualization!!
+				</p>
+			</div>
+			<div class="servicesBx">
+				<img src="icon6.png">
+				<h2>Data Science</h2>
+				<p>
+					
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class = "projects" id="projects">
+		<div class = "heading">
+			<h2>Projects</h2>
+			<p>Below are a few projects that I have been working on! 
+			</p>
+		</div>
+		<div class = "content">
+			<div class = "workBx">
+				<h3><a href="https://github.com/nikitakalje/Face-Recognition-py">Face Recognition using Python</a></h3>
+				<img src="project1.jpg">
+				<p>
+					<ul>
+						<a>Skills Used:</a><br>
+						<a>Python, NumPy</a>
+					</ul>
+				</p>
+				
+			</div>
+			<div class = "workBx">
+				<h3><a href="https://github.com/nikitakalje/nikitakalje.github.io">This website!</a></h3>
+
+				<img src="project2.jpg">
+				<p>
+					<ul>
+						<a>Skills Used:</a><br>
+						<a>Html/CSS, Javascript, PHP</a>
+					</ul>
+				</p>
+			</div>
+			<div class = "workBx">
+				<h3><a href="https://github.com/nikitakalje/QuotesApp">Quote Generator App</a></h3>
+				<img src="project3.jpg">
+				<p>
+					<ul>
+						<a>Skills Used:</a><br>
+						<a>Swift</a>
+					</ul>
+				</p>
+			</div>
+			<div class = "workBx">
+				<h3><a href="https://github.com/nikitakalje//LoginApp1">Login App</a></h3>
+				<img src="project4.jpg">
+				<p>
+					<ul>
+						<a>Skills Used:</a><br>
+						<a>Swift, Firebase</a>
+					</ul>
+				</p>
+			</div>
+			<div class = "workBx">
+				<h3><a href="https://github.com/nikitakalje/Flashcards">Flashcards App</a></h3>
+				<img src="project5.jpg.png">
+				<p>
+					<ul>
+						<a>Skills Used:</a><br>
+						<a>Swift</a>
+					</ul>
+				</p>
+			</div>
+			<!--<div class = "workBx">
+				<img src="project1.jpg">
+			</div>-->
+		</div>
+		<div class = "heading">
+			<a href="https://github.com/nikitakalje" class = "btn">View More</a>
+		</div>
+	</section>
+
+	<section class = "platforms" id="platforms">
+		<div class= "heading">
+			<h2>Notable Experiences</h2>
+				<p>Here are a couple of my recent noteworthy experiences!
+				</p>
+		</div>
+		<div class="content">
+			<div class = "platformsBx">
+					<p>
+						I Co-Founded Cord in early 2020, a mobile app based startup that is all about bridging the work-life gap, using the power of the gig economy. Cord hopes to both help people find part time work, and help others find assistance for their household tasks, all within minutes. 
+
+						<br>We hope to launch in Summer 2021. Stay tuned!
+						<ul>
+							<a href="https://www.linkedin.com/company/cordinc">Learn More</a>
+						</ul>
+					</p>
+					<h3>Co-Founder and Tech Lead<br><span>Cord</span></h3>
+			</div>
+			<div class = "platformsBx">
+					<p>	I have also served as the Chief Operating Officer of Legato Lingua since 2018! Legato Lingua is a non-profit company, that aims to provide free language education to primarily elementary and middle school aged children. We started in the Bay Area and have now expanded to Richmond, Virginia, having taught over 1100 students in 19 locations. 
+						<ul>
+							<a href="http://www.legatolingua.org">Visit our Website</a>
+						</ul>
+					</p>
+					<h3>Chief Operating Officer<br><span>Legato Lingua</span></h3>
+			</div>
+		</div>
+	</section>
+
+	<section class= "contact" id= "contact">
+		<div class = "heading">
+			<h2>Contact Me</h2>
+			<p> Thanks for visiting my page! Contact Me if you would like to chat, and/or if you would like a copy of my resume! 
+			</p>
+		</div>
+		<div class="content">
+			<div class="contactInfo">
+				<h3>Contact Info</h3>
+				<div class="contactInfoBx">
+					<div class = "box">
+						<div class="icon">
+							<i class = "fa fa-map-marker"></i>
+						</div>
+						<div class="text">
+							<!--<h3>Address</h3>-->
+							<h3>Media</h3>
+						</div>
+							<!--<p>Filler Text Filler Text Filler Text Filler Text<br> Filler Text Filler Text</p>-->
+						
+						<!--<h3>Media</h3>-->
+						<!--<ul>
+							<li><i class="fab fa-facebook" aria-hidden="true"></i></li>
+							<li><i class="fab fa-github" aria-hidden="true"></i></li>
+							<li><i class="fab fa-linkedin" aria-hidden="true"></i></li>
+						</ul>-->
+						<!--<ul>
+							<br>
+							<li><a href="nnkalje@scu.edu" class="fa fa-email"></a></li>
+							<li><a href="https://github.com/nikitakalje" class="fa fa-github"></a></li>
+							<li><a href="https://www.linkedin.com/in/nikitakalje/" class="fa fa-linkedin"></a></li>
+							<li><a href="https://www.facebook.com/nikita.kalje/" i class="fab fa-facebook"></a></li>
+							-->
+						
+						<div class="socials">
+							<ul>
+								<li><a href="mailto:kalje.nikita@gmail.com?subject=Mail from site" class="fa fa-envelope"></a></li>
+								<li><a href="https://github.com/nikitakalje" class="fa fa-github"></a></li>
+								<li><a href="https://www.linkedin.com/in/nikitakalje/" class="fa fa-linkedin"></a></li>
+								<li><a href="https://www.facebook.com/nikita.kalje/" i class="fab fa-facebook"></a></li>
+							</ul>
+						</div>
+						
+					<!--	</ul> -->
+					</div>
+					<!--<div class = "box">
+						<div class="icon">
+							<i class = "fa fa-phone"></i>
+						</div>
+						<div class="text">
+							<h3>Phone</h3>
+							<p>Filler Text Filler Text Filler Text Filler Text<br> Filler Text Filler Text</p>
+						</div>
+					</div>-->
+					<div class = "box">
+						<div class="icon">
+							<i class = "fa fa-envelope-o"></i>
+						</div>
+						<div class="text">
+							<h3>Email</h3>
+							<p>kalje.nikita@gmail.com<br> nnkalje@scu.edu</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--start of form-->
+			<!--
+			<div class= "formBx">
+			
+				
+				<form class="ContactForm" action="contacthelp.php" method = "post">
+ 				
+					<h3>Message Me</h3>
+					<input type="text" name="name" placeholder="Full Name" id="name">
+					<input type="email" name="Email" placeholder="Email" id= "email">
+					<textarea name="Message" placeholder="Your Message" id= "message"></textarea>
+					
+
+						
+					<input type= "submit" name="submit">
+						
+				</form>
+				
+			</div>-->
+			
+
+		</div>
+	</section>
+
+	<div class="copyright">
+		<p>	Copyright 2020. 
+		</p>
+	</div>
+	<script type="text/javascript">
+		window.addEventListener('scroll', function() {
+			var header = document.querySelector('header');
+			header.classList.toggle('sticky', window.scrollY > 0);
+		});
+
+		function toggleMenu(){
+			var menuToggle = document.querySelector('.toggle');
+			var menu = document.querySelector('.menu');
+			menuToggle.classList.toggle('active');
+			menu.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
